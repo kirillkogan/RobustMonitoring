@@ -11,7 +11,7 @@ Evaluations are based on the YAPS simulator(https://github.com/NetSys/simulator)
 
 `./simulator 1 conf_file.txt > output.ans`, where `conf_file.txt` is a configuration file 
 
-Simulator will print to file `output.ans` the values of all calculated metrics (see `output_standart.txt` for example). 
+Simulator prints to the file `output.ans` values of all calculated metrics (see `output_standart.txt` for example). 
 
 
 ## Parameters variation
@@ -21,4 +21,5 @@ Simulator will print to file `output.ans` the values of all calculated metrics (
 * `flowlet_size` - value of FL.
 
 `conf_standart.txt` -- configuration file for the standard experiment.
+
 `output_standart.txt` -- values of all calculated metrics in the standart experiment.
