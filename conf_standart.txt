@@ -1,0 +1,14 @@
+init_cwnd: 12
+max_cwnd: 15
+retx_timeout: 45e-06
+queue_size: 36000
+propagation_delay: 0.0000002
+bandwidth: 40000000000.0
+num_flow: 1000000
+flow_trace: ./CDF_datamining.txt
+cut_through: 1
+load_balancing: 0
+load: 0.6
+smooth_cdf: 1
+flowlet_size: 1
+speed: 16
